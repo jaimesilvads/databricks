@@ -4,7 +4,7 @@
 # Projeto Engenharia de dados com DataBriks
 
 
-<p align="center"><img src="./Marketecture.svg" width="500"></p>
+<p align="center"><img src="./imagens/Marketecture.svg" width="500"></p>
 
 __*Foi Crianda uma estrutura de data lake no Databriks community*__
 
