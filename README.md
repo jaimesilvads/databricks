@@ -37,7 +37,7 @@ O projeto consiste em criar um data lake no Databriks community, fazer upload de
   <li>T201612PDPI+BNFT.csv</li>   
 </ul> 
 
-3. Foram realizadas a limpeza, preprocessamento e conversão para o formato parquet, visando melhorar a performance nas proximas etapas do processo. O resultado desse processo foi gravado na Proessin zone.
+3. Foram realizadas a limpeza, preprocessamento e conversão para o formato parquet, visando melhorar a performance nas proximas etapas do processo. O resultado(df-formatado.parquet) desse processo foi gravado na Proessin zone.
 
 4. Foi realiada a leitura dos dado em formato parquet e aplicada agragação nos dados e gravados na Cureted zone
 
