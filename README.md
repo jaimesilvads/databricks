@@ -14,11 +14,30 @@ O projeto consiste em criar um data lake no Databriks community, fazer upload de
 
 ### Etapas do Projeto
 
-1. Foi utilizada a a base AdventureWorks.xlsx encontrada em https://github.com/diasctiago/dio/blob/main/An%C3%A1lise%20de%20dados%20com%20Python%20e%20Pandas/AdventureWorks.xlsx
-2. Foi utilizada a biblioteca Pandora para ralizar a validação dos dados
-3. Foram aplicado alguns dos recursor ofoferecidos pela biblioteca Panda para facilita os seguintes processos:<br />
-  .Analise para conhecimento da estrutura de dados
-  .Limpeza de Dados 
-  .Agrupamento de dados 
-4. Foi utilizado  a biblioteca MatplotLib para gerar gráficos
+1. 1. Foi Criado um datalake  utilizando o Min.io intalado localmente com estruta abaixo
+<ul>
+  <li>Bancket(landing) - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
+  <li>Bancket(processing) - Processing zone(dados pre-processados)</li>
+  <li>Bancket(cureted) - Cureted zone(Dados limpos, agregados e prontos para análises)</li>  
+</ul> 
+2.Foi realizado o upload dos arquivos de dados na zona de pouso(landing), extraídos do kaggle
+
+<ul>
+  <li>T201601PDPI+BNFT.csv</li>
+  <li>T201602PDPI+BNFT.csv</li>
+  <li>T201603PDPI+BNFT.csv</li>
+  <li>T201604PDPI+BNFT.csv</li> 
+  <li>T201605PDPI+BNFT.csv</li>  
+  <li>T201606PDPI+BNFT.csv</li>
+  <li>T201607PDPI+BNFT.csv</li>
+  <li>T201608PDPI+BNFT.csv</li>
+  <li>T201609PDPI+BNFT.csv</li>
+  <li>T201610PDPI+BNFT.csv</li>
+  <li>T201611PDPI+BNFT.csv</li>
+  <li>T201612PDPI+BNFT.csv</li>   
+</ul> 
+3. Foram realizadas a limpeza, preprocessamento e conversão para o formato parquet, visando melhorar a performance nas proximas etapas do processo. O resultado desse processo foi gravado na Proessin zone.
+4. Foi realiada a leitura dos dado em formato parquet e aplicada agragação nos dados e gravados na Cureted zone
+5. Foi utiizado o notebook abaixo para realiza o processamento dos dados.
+<>
 
