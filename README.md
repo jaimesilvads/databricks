@@ -39,7 +39,8 @@ O projeto consiste em criar um data lake no Databriks community, fazer upload de
 
 3. Foram realizadas a limpeza, preprocessamento e conversão para o formato parquet, visando melhorar a performance nas proximas etapas do processo. O resultado(df-formatado.parquet) desse processo foi gravado na Proessin zone.
 
-4. Foi realiada a leitura dos dado em formato parquet e aplicada agragação nos dados e gravados na Cureted zone em formato parquet.(df-Dados-Agregados.parquet)
+4. Foi realiada a leitura dos dado em formato parquet e criada a view Dados_Sql para permitir exploração dos dados via SQL.
+5. Foi aplicada agragação nos dados da view Dados_Sql e gravados o resultado na Cureted zone em formato parquet.(df-Dados-Agregados.parquet)
 
 5. Foi utiizado o notebook abaixo para realiza o processamento dos dados.
 <>
