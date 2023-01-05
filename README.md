@@ -14,7 +14,7 @@ O projeto consiste em criar um data lake no Databriks community, fazer upload de
 
 ### Etapas do Projeto
 
-1. Foi Criado um datalake  utilizando o Min.io intalado localmente com estruta abaixo
+1. Foi Criado um datalake  utilizando o Databriks community com estruta abaixo
 
 <ul>
   <li>Bancket(landing) - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
