@@ -4,20 +4,20 @@
 ### FRANCISCO JAIME DA SILVA
 
 
-## Projeto Engenharia de dados com DataBriks
+## Projeto Engenharia de dados com DataBricks
 
 
 <p align="center"><img src="./imagens/Marketecture.svg" width="500"></p>
 
-__*Foi Crianda uma estrutura de data lake no Databriks community*__
+__*Foi Crianda uma estrutura de data lake no Databricks community*__
 
-O projeto consiste em criar um data lake no Databriks community, fazer upload de dados processa-lo e converte-los para um formato mais adequado a analises levando em consideração espaço de armazenamento e performance do pyspark. 
+O projeto consiste em criar um data lake no Databricks community, fazer upload de dados processa-lo e converte-los para um formato mais adequado a analises levando em consideração espaço de armazenamento e performance do pyspark. 
 
 ---
 
 ### Etapas do Projeto
 
-1. Foi Criado um datalake  utilizando o Databriks community com estruta abaixo
+1. Foi Criado um datalake  utilizando o Databricks community com estruta abaixo
 
 <ul>
   <li>Bancket(landing) - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
@@ -50,5 +50,5 @@ O projeto consiste em criar um data lake no Databriks community, fazer upload de
 6. Foi aplicada agragação nos dados da view Dados_Sql e gravado o resultado na Cureted zone em formato parquet.(df-Dados-Agregados.parquet)
 
 7. Foi utiizado o notebook abaixo para realiza o processamento dos dados.
-<https://github.com/jaimesilvads/databriks/blob/main/SparckComDatabriks.ipynb>
+<https://github.com/jaimesilvads/databriks/blob/main/SparckComDatabricks.ipynb>
 
