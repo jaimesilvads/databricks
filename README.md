@@ -41,7 +41,7 @@ O projeto consiste em criar um data lake no Databricks community, fazer upload d
   <li>T201612PDPI+BNFT.csv</li>   
 </ul> 
 
-3. Foi criado um cluster spark Databriks 
+3. Foi criado um cluster spark Databricks 
 
 4. Foram realizadas a limpeza, preprocessamento e conversão para o formato parquet, visando melhorar a performance nas proximas etapas do processo. O resultado(df-formatado.parquet) desse processo foi gravado na Proessing zone.
 
