@@ -51,4 +51,3 @@ O projeto consiste em criar um data lake no Databricks community, fazer upload d
 
 7. Foi utiizado o notebook abaixo para realiza o processamento dos dados.
 <https://github.com/jaimesilvads/databriks/blob/main/SparckComDatabricks.ipynb>
-
