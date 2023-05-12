@@ -50,5 +50,4 @@ O projeto consiste em criar um data lake no Databricks community, fazer upload d
 6. Foi aplicada agragação nos dados da view Dados_Sql e gravado o resultado na Cureted zone em formato parquet.(df-Dados-Agregados.parquet)
 
 7. Foi utiizado o notebook abaixo para realiza o processamento dos dados.
-<https://github.com/jaimesilvads/databriks/blob/main/SparckComDatabricks.ipynb>
 <https://github.com/jaimesilvads/databricks/blob/main/SparckComDatabriks.ipynb>
