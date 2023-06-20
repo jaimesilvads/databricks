@@ -17,7 +17,7 @@ O projeto consiste em criar um data lake no Databricks community, fazer upload d
 
 ### Etapas do Projeto
 
-1. Foi Criado um datalake  utilizando o Databricks community com estruta abaixo
+1. Foi Criado um datalake  utilizando o Databricks community com a estrura abaixo
 
 <ul>
   <li>Bancket(landing) - Landing zone ou Zona de Pouso(dados em formato bruto)</li>
